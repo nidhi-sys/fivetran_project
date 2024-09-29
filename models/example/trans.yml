@@ -3,8 +3,8 @@ version: 2
 
 
 sources:
-  -name: nidhi
-   databse: FIVETRAN_DATABASE
-   schema: GOOGLE_SHEETS
-   tables: 
-    -name: salesrecords
+  - name: nidhi
+    databse: FIVETRAN_DATABASE
+    schema: GOOGLE_SHEETS
+    tables: 
+      - name: salesrecords
