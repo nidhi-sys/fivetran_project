@@ -1,0 +1,1 @@
+select sum(total_profit) as profit , item_type from {{source('nidhi','salesrecords')}} group by item_type
